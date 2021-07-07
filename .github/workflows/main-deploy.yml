@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Jest
-        run: npm run test  -- --coverage --silent
+        run: npm run test  -- --coverage --silent --passWithNoTests
 
   get-tag:
     runs-on: ubuntu-latest
